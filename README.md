@@ -6,3 +6,5 @@ Watch built with step motors with 2 dial, one for hours and one for minutes
 Features:
 * Every night @3:00 AM it will update internal time via internet (NTP)
 * It track also DST time.
+
+TESTS on Experimental branch

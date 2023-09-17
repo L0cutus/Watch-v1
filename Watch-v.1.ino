@@ -11,6 +11,10 @@
   Based on Stepper Motor Control - one revolution by Tom Igoe
 */
 
+/***************************************
+ Designed for Arduino Nano ESP32 series 
+***************************************/
+
 #include <WiFi.h>
 #include <WiFiUdp.h>
 #include <Stepper.h>
@@ -106,8 +110,7 @@ void loop() {
   {
     if(ntp.minutes() == 0 && !alreadyDone)
     {
-      stepperH.step(171);
-      //stepperM.step(34.4);
+      stepperH.step(172);
       alreadyDone = true;
     }
 
